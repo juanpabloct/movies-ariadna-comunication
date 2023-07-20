@@ -2,35 +2,35 @@
     "movies":[
         {
         "title":"venom", 
-        "image":"/src/assets/movies/portrate/venom.jpg"
+        "image":"public/assets/movies/portrate/venom.jpg"
     },
         {
         "title":"avengers infinity war", 
-        "image":"/src/assets/movies/portrate/avengers-infinity-war.png"
+        "image":"public/assets/movies/portrate/avengers-infinity-war.png"
     },
     {
         "title":"first man", 
-        "image":"/src/assets/movies/portrate/first-man.jpg"
+        "image":"/assets/movies/portrate/first-man.jpg"
     },
     {
         "title":"han solo", 
-        "image":"/src/assets/movies/portrate/han-solo.jpg"
+        "image":"public/assets/movies/portrate/han-solo.jpg"
     },
     {
     "title":"deadpool", 
-    "image":"/src/assets/movies/portrate/deadpool.png"
+    "image":"public/assets/movies/portrate/deadpool.png"
 },
         {
         "title":"incredibles", 
-        "image":"/src/assets/movies/portrate/incredibles.jpg"
+        "image":"public/assets/movies/portrate/incredibles.jpg"
     },
         {
         "title":"jurassic world", 
-        "image":"/src/assets/movies/portrate/jurassic-world.jpg"
+        "image":"public/assets/movies/portrate/jurassic-world.jpg"
     },
         {
         "title":"bohemian rhapsody", 
-        "image":"/src/assets/movies/portrate/bohemian-rhapsody.jpg"
+        "image":"public/assets/movies/portrate/bohemian-rhapsody.jpg"
     }
 ]
 }
