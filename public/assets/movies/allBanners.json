@@ -2,17 +2,17 @@
     "movies":[
         {
         "title":"aquaman", 
-        "image":"public/assets/movies/banners/banner-aquaman.jpg",
-        "imageMob":"public/assets/movies/banners/banner-aquaman.jpg"
+        "image":"/assets/movies/banners/banner-aquaman.jpg",
+        "imageMob":"/assets/movies/banners/banner-aquaman.jpg"
     },
         {
         "title":"bumblebee", 
-        "image":"public/assets/movies/banners/banner-bumblebee.jpg",
-        "imageMob":"public/assets/movies/banners/banner-bumblebee-mob.jpg"
+        "image":"/assets/movies/banners/banner-bumblebee.jpg",
+        "imageMob":"/assets/movies/banners/banner-bumblebee-mob.jpg"
     },
         {
         "title":"venom", 
-        "image":"public/assets/movies/banners/banner-venom.png",
-        "imageMob":"public/assets/movies/banners/banner-venom-mob.png"
+        "image":"/assets/movies/banners/banner-venom.png",
+        "imageMob":"/assets/movies/banners/banner-venom-mob.png"
     }]
 }
