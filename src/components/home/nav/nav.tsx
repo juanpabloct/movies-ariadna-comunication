@@ -5,6 +5,11 @@ import bannerNav from "../../../assets/movies/allbanners.json";
 import { useEffect, useState } from "react";
 import { FaRegDotCircle } from "react-icons/fa"
 import { BiSolidCircle } from "react-icons/bi"
+interface bannerNav {
+    title: string;
+    image: string;
+    imageMob: string;
+}
 export const Nav = () => {
     const [bannerShow, setBannerShow] = useState(0);
     //const [image, setImage] = useState(bannerNav.movies[0]);
@@ -42,7 +47,7 @@ export const Nav = () => {
                         </div>
                     </div>
                 </div>
-                <div className="pounts_images">{bannerNav.movies.map((_, i: number) => {
+                <div className="pounts_images">{bannerNav.movies.map((_: bannerNav, i: number) => {
                     return bannerShow === i ? <span className={"pount_selected"} key={i}><FaRegDotCircle /></span> : <span className="pount" onClick={() => { setBannerShow(i) }} key={i}><BiSolidCircle /></span>
                 })}</div>
             </div>
