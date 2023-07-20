@@ -1,4 +1,5 @@
 import { Button } from "./buttons/button";
+
 import "./nav.scss";
 import bannerNav from "../../../assets/movies/allbanners.json";
 import { useEffect, useState } from "react";
