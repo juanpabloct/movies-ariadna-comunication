@@ -1,6 +1,6 @@
 import { ContentTargets } from "../components/home/contentTargets/contentTargets"
 import { Nav } from "../components/home/nav/nav"
-import movies from "../assets/movies/allMovies.json"
+import movies from "../../public/assets/movies/allMovies.json"
 import { Tabs } from "../components/home/tabs/tabs"
 import "./home.scss"
 export const HomePage = () => {

@@ -1,7 +1,7 @@
 import { Button } from "./buttons/button";
 
 import "./nav.scss";
-import bannerNav from "../../../assets/movies/allBanners.json";
+import bannerNav from "../../../../public/assets/movies/allBanners.json";
 import { useEffect, useState } from "react";
 import { FaRegDotCircle } from "react-icons/fa"
 import { BiSolidCircle } from "react-icons/bi"
