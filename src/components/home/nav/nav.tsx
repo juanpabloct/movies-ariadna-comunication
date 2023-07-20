@@ -41,7 +41,7 @@ export const Nav = () => {
                         </div>
                     </div>
                 </div>
-                <div className="pounts_images">{bannerNav.movies.map((_, i) => {
+                <div className="pounts_images">{bannerNav.movies.map((_, i: number) => {
                     return bannerShow === i ? <span className={"pount_selected"} key={i}><FaRegDotCircle /></span> : <span className="pount" onClick={() => { setBannerShow(i) }} key={i}><BiSolidCircle /></span>
                 })}</div>
             </div>
