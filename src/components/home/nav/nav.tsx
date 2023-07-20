@@ -36,8 +36,8 @@ export const Nav = () => {
                     <div className="description">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda veniam nihil officia, cumque repellat recusandae tempora rerum laborum debitis labore quidem ratione temporibus architecto aliquid repudiandae voluptatum eveniet, illum quia.</p>
                         <div className="content_buttons">
-                            <Button action={() => { }} className="watch_now" title="WATCH NOW" />
-                            <Button action={() => { }} className="more_info" title="MORE INFO" />
+                            <Button action={() => { console.log("") }} className="watch_now" title="WATCH NOW" />
+                            <Button action={() => { console.log("") }} className="more_info" title="MORE INFO" />
                         </div>
                     </div>
                 </div>

@@ -7,8 +7,8 @@ export const Target: FC<{ img: string, alt: string, title: string }> = ({ img, a
         <div className="view_buttons">
             <h3>{title.toUpperCase()}</h3>
             <div className="content_button">
-                <Button action={() => { }} className="watch_now" title="WATCH NOW" />
-                <Button action={() => { }} className="more_info_target" title="MORE INFO" />
+                <Button action={() => { console.log("") }} className="watch_now" title="WATCH NOW" />
+                <Button action={() => { console.log("") }} className="more_info_target" title="MORE INFO" />
             </div>
         </div>
     </div>
