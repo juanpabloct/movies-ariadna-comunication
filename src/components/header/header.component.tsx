@@ -1,4 +1,4 @@
-import logoIcon from "../../assets/logo.png";
+import logoIcon from "../../../public/assets/logo.png";
 import "./header.scss";
 import { Link, useLocation } from "react-router-dom"
 import { AiOutlineMenu } from "react-icons/ai"
