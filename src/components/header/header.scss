@@ -1,0 +1,120 @@
+$medium-screen: 768px;
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(20, 23, 22);
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    gap: 4rem;
+    height: 4rem;
+    position: relative;
+
+
+    .container_logo {
+        .logo {
+            height: 2rem;
+            width: 7rem;
+        }
+    }
+
+    .sections {
+        display: flex;
+        gap: 0rem 2rem;
+        height: 100%;
+        align-items: center;
+
+        .iconMenu {
+            display: none;
+        }
+
+        .directions {
+            display: flex;
+            gap: 1rem 2rem;
+            width: 100%;
+            background-color: white;
+            box-shadow: 3rem black;
+            justify-content: end;
+            height: 100%;
+            visibility: visible;
+
+            .pageNow {
+                background-color: #fae95c;
+            }
+
+            * {
+                color: rgb(15, 14, 14);
+                font-size: medium;
+                text-decoration: none;
+                text-align: center;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0 1rem;
+            }
+
+            .sing_in {
+                background-color: #eee;
+            }
+        }
+
+
+
+    }
+}
+
+
+@media screen and (max-width: $medium-screen) {
+    .header {
+        .container_logo {
+            flex-grow: 10;
+            flex-shrink: 2;
+            margin-left: 2rem;
+
+            .logo {
+                cursor: pointer;
+            }
+        }
+
+        .sections {
+            flex-direction: column;
+            margin-right: 1.5rem;
+            z-index: 60;
+
+            .iconMenu {
+                display: flex;
+                height: 100%;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                cursor: pointer;
+
+                svg {
+                    height: 4rem;
+                }
+            }
+
+            .directions {
+                position: sticky;
+                flex-direction: column;
+                top: 0;
+                box-shadow: 0 1rem 3.1rem 0 #6fa2d559;
+                border-radius: 0rem 1rem;
+                min-width: 11rem;
+                max-width: 15rem;
+                transition: visibility ease-in;
+                height: 10rem;
+            }
+
+
+        }
+
+        #hidden {
+            visibility: hidden;
+        }
+    }
+}

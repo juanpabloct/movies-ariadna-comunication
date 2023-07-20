@@ -1,0 +1,18 @@
+{
+    "movies":[
+        {
+        "title":"aquaman", 
+        "image":"src/assets/movies/banners/banner-aquaman.jpg",
+        "imageMob":"src/assets/movies/banners/banner-aquaman.jpg"
+    },
+        {
+        "title":"bumblebee", 
+        "image":"src/assets/movies/banners/banner-bumblebee.jpg",
+        "imageMob":"src/assets/movies/banners/banner-bumblebee-mob.jpg"
+    },
+        {
+        "title":"venom", 
+        "image":"src/assets/movies/banners/banner-venom.png",
+        "imageMob":"src/assets/movies/banners/banner-venom-mob.png"
+    }]
+}

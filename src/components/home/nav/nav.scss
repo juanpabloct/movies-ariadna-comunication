@@ -1,0 +1,125 @@
+.nav {
+    position: relative;
+    overflow: hidden;
+
+
+    picture {
+        img {
+            width: 100%;
+            object-fit: fill;
+            aspect-ratio: 2/1;
+            animation: insertImage 2s ease-in;
+        }
+    }
+
+
+    .pounts_images {
+        bottom: 2rem;
+        position: absolute;
+        display: flex;
+        gap: 1rem;
+        right: 8rem;
+
+        .pount {
+            color: white;
+            cursor: pointer;
+        }
+
+        .pount_selected {
+            cursor: pointer;
+            color: #fae95c;
+        }
+    }
+
+    .content_info {
+        display: flex;
+        position: absolute;
+        top: 0;
+        height: 100%;
+
+        .info {
+            z-index: 30;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 50%;
+            color: #cac5c5;
+
+            .title {
+                font-size: 3rem;
+                width: 56%;
+            }
+
+            .description {
+                width: 56%;
+            }
+
+            .content_buttons {
+                padding-bottom: 2rem;
+                display: flex;
+                gap: 1rem;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+
+@keyframes insertImage {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav {
+        display: flex;
+        justify-content: center;
+
+        picture {
+            img {
+                aspect-ratio: 1/1;
+            }
+        }
+
+        .content_info {
+
+
+            .info {
+                width: 100%;
+                justify-content: center;
+
+                .title {
+                    font-size: 2rem;
+                    width: 90%;
+                }
+
+                .description {
+                    width: 90%;
+                    font-size: 0.8rem
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .nav {
+
+        img {
+            aspect-ratio: 9/3;
+        }
+
+        .content_info {
+
+            .info {
+                width: 60%;
+            }
+        }
+    }
+}

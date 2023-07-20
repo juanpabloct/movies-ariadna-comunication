@@ -1,0 +1,32 @@
+$white_light: rgb(229, 229, 229);
+$p_buttons: 0.7rem 1rem;
+$more_info: 1px solid $white_light;
+
+.watch_now {
+    color: rgb(25, 24, 24);
+    background-color: #fae95c;
+    width: 40%;
+    padding: $p_buttons;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.more_info {
+    color: $white_light;
+    background-color: rgba(0, 0, 0, 0);
+    width: 40%;
+    padding: $p_buttons;
+    border: $more_info;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.more_info_target {
+    color: $white_light;
+    background-color: rgb(0, 0, 0);
+    width: 40%;
+    padding: $p_buttons;
+    border: $more_info;
+    font-weight: 700;
+    cursor: pointer;
+}
